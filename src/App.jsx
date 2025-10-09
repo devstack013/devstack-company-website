@@ -117,7 +117,7 @@ const ModernITWebsite = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
               <img
-                src="/logo.png"
+                src={`${import.meta.env.BASE_URL}/logo.png`}
                 alt="DevStack Logo"
                 className="h-12 w-auto"
               />
@@ -611,7 +611,7 @@ const ModernITWebsite = () => {
             <div className="flex flex-col gap-2">
               <div className="flex items-center space-x-2">
                 <img
-                  src="/logo.png"
+                  src={`${import.meta.env.BASE_URL}/logo.png`}
                   alt="DevStack Logo"
                   className="h-12 w-auto"
                 />
