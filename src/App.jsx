@@ -7,7 +7,6 @@ import {
   Shield,
   Zap,
   Users,
-  MapPin,
   Mail,
   Phone,
   Globe,
@@ -202,15 +201,18 @@ const ModernITWebsite = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white text-lg px-8 py-3 rounded-lg flex items-center justify-center transition-all duration-200 transform hover:scale-105">
+                <a
+                  href="#contact"
+                  className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white text-lg px-8 py-3 rounded-lg flex items-center justify-center transition-all duration-200 transform hover:scale-105"
+                >
                   Start Your Project
                   <ArrowRight className="w-5 h-5 ml-2" />
-                </button>
+                </a>
               </div>
 
               <div className="flex items-center space-x-8 pt-4">
                 <div>
-                  <div className="text-3xl font-bold text-gray-900">150+</div>
+                  <div className="text-3xl font-bold text-gray-900">60+</div>
                   <div className="text-gray-600">Projects Delivered</div>
                 </div>
                 <div>
@@ -266,9 +268,9 @@ const ModernITWebsite = () => {
                       </div>
                     </div>
                     <div className="bg-gradient-to-br from-cyan-50 to-cyan-100 p-4 rounded-xl text-center transform hover:scale-105 transition-transform">
-                      <div className="text-3xl mb-2">🧠</div>
+                      <div className="text-3xl mb-2">💼</div>
                       <div className="text-sm font-semibold text-gray-800">
-                        ChatGPT
+                        SAP
                       </div>
                     </div>
                     <div className="bg-gradient-to-br from-indigo-50 to-indigo-100 p-4 rounded-xl text-center transform hover:scale-105 transition-transform">
@@ -475,26 +477,12 @@ const ModernITWebsite = () => {
 
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center">
-                    <MapPin className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <div className="font-semibold text-gray-900">
-                      Our Office
-                    </div>
-                    <div className="text-gray-600">
-                      Hinjewadi, Pune, Maharashtra 411057
-                    </div>
-                  </div>
-                </div>
-
-                <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Email Us</div>
-                    <div className="text-gray-600">support@devstack.com</div>
+                    <div className="text-gray-600">support@devstack.co.in</div>
                   </div>
                 </div>
 
@@ -677,8 +665,6 @@ const ModernITWebsite = () => {
             <div>
               <h3 className="font-bold mb-4">Contact Info</h3>
               <ul className="space-y-2 text-gray-400">
-                <li>Hinjewadi, Pune</li>
-                <li>Maharashtra 411057</li>
                 <li>support@devstack.co.in</li>
               </ul>
             </div>
